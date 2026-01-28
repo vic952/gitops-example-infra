@@ -21,8 +21,8 @@ variable "cluster_name" {
 
 variable "gcp_project_name" {
     type = string
-    description = "GCP project name."
-    default = "Project Hello"
+    description = "Project Hello"
+    default = "project-9261ba42-ab10-47ed-af2"
 }
 
 variable "gcp_project_region" {
@@ -42,4 +42,3 @@ variable "cluster_cp_location" {
     description = "Location for the cluster control plane."
     default = "us-west1-a"
 }
-
